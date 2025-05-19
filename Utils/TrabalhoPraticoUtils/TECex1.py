@@ -1,7 +1,7 @@
 import ROOT
 
 # Abrir o arquivo ROOT
-file = ROOT.TFile("TrabalhoPraticoUtils/AmberTarget_Run_0.root")  # Substitua pelo nome do seu arquivo ROOT
+file = ROOT.TFile("AmberTarget_Run_0.root")  # Substitua pelo nome do seu arquivo ROOT
 tree = file.Get("edep_Per_Event")  # Substitua pelo nome correto da árvore
 
 # Criar histogramas para cada detector
